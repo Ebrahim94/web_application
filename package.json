@@ -1,0 +1,25 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "This is my protfoli that showcases my skill set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ebrahim94/web_application.git"
+  },
+  "author": "Ebrahim Alawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ebrahim94/web_application/issues"
+  },
+  "homepage": "https://github.com/Ebrahim94/web_application#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "jQuery": "^1.7.4"
+  }
+}

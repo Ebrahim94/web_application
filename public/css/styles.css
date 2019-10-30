@@ -1,0 +1,96 @@
+/* HTML ELEMENTS -------------------------------------------------------------- */
+body{
+  background-color: #f9d5bb
+}
+.background{
+    /* Background */
+   background-image: url("city_2.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #464646;
+
+   /* text color */
+   color:#fff;
+}
+
+.titleSection{
+  height:40rem;
+}
+
+/* Classes --------------------------------------------------------------------- */
+
+.tit{
+  background-color:black;
+  opacity:60%;
+}
+
+
+.home-footer{
+  position:absolute;
+  bottom:2%;
+  right:2%;
+}
+
+.title{
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+  text-align:center;
+  color:#fff;
+}
+
+/* Navigation Bar */
+.nav-item{
+  padding:0 0.5rem;
+  color:#fff;
+}
+
+.navbar {
+  padding: 0.5rem 2rem;
+
+}
+
+
+/* carousel */
+.carousel-item {
+  text-align:center;
+  padding:0 3rem;
+}
+
+#carouselhome{
+  height:400px;
+}
+
+/* Cards */
+.skill-present{
+  padding:0 5em;
+  margin:2px;
+}
+
+.card{
+  margin:0;
+}
+
+.title-description{
+  text-align: left;
+  padding:2rem 5rem 0;
+  margin-top: 3rem;
+  font-size: 120%;
+}
+
+
+.home-footer{
+  width:4rem;
+}
+
+.link-icons{
+  color:#fff;
+  padding:0 6%;
+}
+
+.titleSection{
+  text-align:center;
+}
