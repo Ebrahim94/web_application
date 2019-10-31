@@ -1,7 +1,18 @@
 /* HTML ELEMENTS -------------------------------------------------------------- */
-body{
-  background-color: #f9d5bb
+html {
+    position: relative;
+    min-height: 100%;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  margin-top:3rem;
+}
+
+/* Classes --------------------------------------------------------------------- */
+
+/* Background for the home page */
 .background{
     /* Background */
    background-image: url("city_2.jpg");
@@ -15,24 +26,19 @@ body{
    color:#fff;
 }
 
-.titleSection{
-  height:40rem;
+
+/* About page first section */
+.about-section{
+  background-color:#fff;
+  text-align:center;
 }
 
-/* Classes --------------------------------------------------------------------- */
-
-.tit{
-  background-color:black;
-  opacity:60%;
+/* picture in the about page */
+.guy-picture{
+  width:90%
 }
 
-
-.home-footer{
-  position:absolute;
-  bottom:2%;
-  right:2%;
-}
-
+/* title in the home page */
 .title{
   position:absolute;
   transform: translate(-50%, -50%);
@@ -42,48 +48,18 @@ body{
   color:#fff;
 }
 
-/* Navigation Bar */
-.nav-item{
-  padding:0 0.5rem;
-  color:#fff;
-}
-
-.navbar {
-  padding: 0.5rem 2rem;
-
+.welcome{
+  background-color:black;
+  opacity:60%;
 }
 
 
-/* carousel */
-.carousel-item {
-  text-align:center;
-  padding:0 3rem;
-}
-
-#carouselhome{
-  height:400px;
-}
-
-/* Cards */
-.skill-present{
-  padding:0 5em;
-  margin:2px;
-}
-
-.card{
-  margin:0;
-}
-
-.title-description{
-  text-align: left;
-  padding:2rem 5rem 0;
-  margin-top: 3rem;
-  font-size: 120%;
-}
-
-
+/* footer for home page */
 .home-footer{
-  width:4rem;
+  position:absolute;
+  bottom:2%;
+  right:2%;
+  width:7rem;
 }
 
 .link-icons{
@@ -91,6 +67,16 @@ body{
   padding:0 6%;
 }
 
-.titleSection{
-  text-align:center;
+
+
+/* Navigation Bar */
+.nav-item{
+  padding:0 0.5rem;
+  color:#fff;
 }
+
+.navbar {
+  padding: 0.5rem 4rem;
+}
+
+/* about page footer */

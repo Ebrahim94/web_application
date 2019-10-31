@@ -93,3 +93,30 @@
     background-position: 0 50%;
   }
 } */
+
+<!-- <img class = "icon col-3" src="images/python.svg" alt="">
+<img class = "icon col-3" src="images/javascript.svg" alt="">
+<img class = "icon col-3" src="images/html.svg" alt="">
+<img class = "icon col-3" src="images/bootstrap.svg" alt="">
+<img class = "icon col-3" src="images/jquery.svg" alt="">
+<img class = "icon col-3" src="images/css.svg" alt=""> -->
+
+/* carousel */
+.carousel-item {
+  text-align:center;
+  padding:0 3rem;
+}
+
+#carouselhome{
+  height:400px;
+}
+
+/* Cards */
+.skill-present{
+  padding:0 5em;
+  margin:2px;
+}
+
+.card{
+  margin:0;
+}

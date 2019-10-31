@@ -20,7 +20,11 @@ app.get('/about',function(req,res){
   res.render('about')
 })
 
+app.get('/skills', function(req,res){
+  res.render('skills')
+})
+
 //Running the server
-app.listen(3000, function(){
+app.listen(process.env.port || 3000, function(){
   console.log("You are connected to the server");
 })

@@ -1,6 +1,5 @@
-$('nav').removeClass('navbar-dark')
-$('nav').addClass('navbar-light')
-
+$('.nav-item').css('color','black');
+$('nav').addClass('bg-dark');
 $(document).ready(function(){
 
 $('.icon').show( "scale", {percent: 200, direction: 'vertical' }, 2000 );
