@@ -12,15 +12,17 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 // instructing the server on what to do when root route is requested
-app.get(__dirname + '/', function(req,res){
+app.get('/', function(req,res){
+  console.log(__dirname);
+  console.log("You are in the root directory");
   res.render('home');
 })
 
-app.get(__dirname + '/about',function(req,res){
+app.get('/about',function(req,res){
   res.render('about')
 })
 
-app.get(__dirname + '/skills', function(req,res){
+app.get('/skills', function(req,res){
   res.render('skills')
 })
 
