@@ -25,6 +25,6 @@ app.get('/skills', function(req,res){
 })
 
 //Running the server
-app.listen(process.env.port || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("You are connected to the server");
 })
