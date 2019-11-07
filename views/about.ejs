@@ -17,7 +17,8 @@
 
   <!-- body section -->
   <body>
-
+    <div class='entire'>
+<div id='page-container'>
 <section class='about-section'>
 <!-- Navigation bar (check nav.ejs) -->
 <%- include('nav') %>
@@ -34,7 +35,7 @@ of python and analayzing data with python and a familiarty with object oriented 
 <div class='container icons'>
   <div class='row align-items-center'>
     <div class='col-lg-6'>
-<img src="illus/phone.jpg" class='guy-picture' alt="guys">
+<img src="images/phone.jpg" class='guy-picture' alt="guys">
     </div>
 <p class='col-lg-6'>Welcome to my page, I am a self-taught programmer and Data Science enthusiast. Not only do I come equipped with front end development skills such as CSS, JavaScript, and HTML but I also possess knowledge that allows me to conduct statistical analysis with the help of Python libraries such as Pandas, Numpy and Matplotlib. I love learning new technology and dedicating a lot of time to bettering myself, it truly makes me happy. If you would like to know a list of my complete skillset please visit my skills page. </p>
   </div>
@@ -42,13 +43,17 @@ of python and analayzing data with python and a familiarty with object oriented 
 
 </section>
 
-<section class='footer'>
-<div class='about-footer'>
-  <a class ="link-icons" href="https://www.linkedin.com/in/ebrahim-alawi-092a53153/"><i class="fab fa-linkedin fa-lg" style="color:#fff"></i></a>
-  <a class ="link-icons" href="https://github.com/Ebrahim94"><i class="fab fa-github-square fa-lg" style="color:#fff;"></i></a>
 </div>
-</section>
+<div>
+  <footer class='footer' style ='text-align:center;'>
 
+    <div class="icons-temp">
+      <a class ="iconsl" href="mailto:ebrahim994a@gmail.com"><i class="fas fa-envelope fa-lg" style= 'color:#fff'></i></a>
+    <a class ="iconsl" href="https://www.linkedin.com/in/ebrahim-alawi-092a53153/"><i class="fab fa-linkedin fa-lg" style="color:#fff"></i></a>
+    <a class ="iconsl" href="https://github.com/Ebrahim94"><i class="fab fa-github-square fa-lg" style="color:#fff;"></i></a>
+  </div>
+  <p style='color:white; text-align:center;'>&copy; Ebrahim Alawi</p>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -57,5 +62,7 @@ of python and analayzing data with python and a familiarty with object oriented 
 <!-- Jquery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="index.js"></script>
+</div>
+</div>
   </body>
 </html>

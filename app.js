@@ -26,6 +26,10 @@ app.get('/skills', function(req,res){
   res.render('skills')
 })
 
+app.get('/skillss',function(req,res){
+  res.render('skillss')
+})
+
 //Running the server
 app.listen(process.env.PORT || 3000, function(){
   console.log("You are connected to the server");
