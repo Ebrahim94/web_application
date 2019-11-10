@@ -219,11 +219,23 @@ h1{
   }
 }
 
+
+/* skills page */
 .block{
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap:20px;
   padding:20px;
+  grid-template-areas:'imageone textone' 'imagetwo texttwo' 'imagethree textthree';
+  text-align:center;
+  margin-top:3rem;
+  justify-content: center;
+}
+
+.imageone{
+
+
+
 }
 
 .element{
@@ -233,3 +245,10 @@ h1{
 .element:nth-child(even){
   background-color:green;
 }
+
+
+
+ @media  screen and (max-width:800px){
+   .block{grid-template-columns: 1fr;
+   grid-template-areas:'imageone' 'textone' 'imagetwo' 'texttwo' 'imagethree' 'textthree';
+ }}
